@@ -1,4 +1,8 @@
+import { matchers } from '@remlify/jest-fp-ts';
+
 import { User } from './main';
+
+expect.extend(matchers);
 
 test('user', () => {
   const user = {};
