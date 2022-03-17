@@ -1,4 +1,8 @@
+import { toBeEither } from '@relmify/jest-fp-ts';
+
 import { User } from './main';
+
+expect.extend({ toBeEither });
 
 test('user', () => {
   const user = {};
