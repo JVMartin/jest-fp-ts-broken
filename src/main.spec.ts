@@ -1,4 +1,4 @@
-import { matchers } from '@remlify/jest-fp-ts';
+import { matchers } from '@relmify/jest-fp-ts';
 
 import { User } from './main';
 
